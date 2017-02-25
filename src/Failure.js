@@ -25,9 +25,9 @@ class Failure extends Component {
   failureChange = (event) => this.props.failureChange(event.target.value);
   effectChange = (event) => this.props.effectChange(event.target.value);
   causeChange = (event) => this.props.causeChange(event.target.value);
-  occurrenceChange = (event) => this.props.occurrenceChange(event.target.value);
-  criticalityChange = (event) => this.props.criticalityChange(event.target.value);
-  detectionChange = (event) => this.props.detectionChange(event.target.value);
+  occurrenceChange = (event) => this.props.occurrenceChange(parseInt(event.target.value));
+  criticalityChange = (event) => this.props.criticalityChange(parseInt(event.target.value));
+  detectionChange = (event) => this.props.detectionChange(parseInt(event.target.value));
   actionChange = (event) => this.props.actionChange(event.target.value);
 
   render() {

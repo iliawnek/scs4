@@ -1,0 +1,33 @@
+.ChecklistItem {
+    background-color: #EEE;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ChecklistItem-RPN {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.ChecklistItem-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChecklistItem-text {
+    display: flex;
+    max-width: 90%;
+}
+
+.ChecklistItem-failure {
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 20px;
+}
